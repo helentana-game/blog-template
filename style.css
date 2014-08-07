@@ -1,0 +1,102 @@
+/*
+Theme Name: Helentana Theme
+Theme URI: http://helentana.ru
+Author: GROME
+Author URI: http://helentana.ru/
+Description: Helentana Game
+Version: 0.1
+*/
+
+article, 
+aside, 
+details, 
+figcaption, 
+figure,
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+main, 
+nav, 
+section, 
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+}
+
+.middle {
+    border-right: 250px solid #FFF;
+    position: relative;
+}
+.middle:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-right: -100%;
+}
+.content {
+    padding: 0 20px;
+}
+
+.right-sidebar {
+    float: right;
+    margin-right: -250px;
+    width: 250px;
+    position: relative;
+}
+
+
+.footer {
+    height: 300px;
+}
